@@ -52,6 +52,7 @@ public class LoginServlet extends HttpServlet {
             }
         } catch(SQLException | NamingException e){
             e.getMessage();
+            System.out.println("Hello World");
         }
         finally {
             RequestDispatcher rd = request.getRequestDispatcher(url);

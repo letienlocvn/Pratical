@@ -31,8 +31,7 @@ public class LogoutServlet extends HttpServlet {
             throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
         try (PrintWriter out = response.getWriter()) {
-            System.out.println("Hello world");
-            System.out.println("Qua dep trai ay chu");
+            System.out.println("What is the problem");
         }
     }
 
